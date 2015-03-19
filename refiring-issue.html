@@ -1,0 +1,16 @@
+<head>
+  <title>refiring-issue</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{#with myObject}}
+    {{> hello}}
+  {{/with}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>{{greeting}}!</p>
+</template>
